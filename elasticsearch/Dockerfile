@@ -10,7 +10,7 @@ RUN yum install -y unzip \
     && mkdir ik \
     && cd ik \
     && wget https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.5.4/elasticsearch-analysis-ik-6.5.4.zip \
-    && unzip elasticsearch-analysis-ik-6.4.2.zip \
+    && unzip elasticsearch-analysis-ik-6.5.4.zip \
     && mkdir /usr/share/elasticsearch/plugins/ik \
     && cp -R * /usr/share/elasticsearch/plugins/ik/
 
