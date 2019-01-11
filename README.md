@@ -11,6 +11,7 @@ elasticsearch, logstash, kibana, filebeat, nginx on docker
 i.g Nginx log
 
 ```
+sudo cd /var/log/nginx
 sudo chown nginx:ec2-user nginx
 sudo chmod -R 777 nginx
 ```
